@@ -14,11 +14,7 @@ from pathlib import Path
 import cloudinary
 import os
 
-cloudinary.config(
-    cloud_name='dbbvdnrww',
-    api_key='794318611589791',
-    api_secret='3wpzT1xT_cfqZkTwg9Mo9eMa94U'
-)
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
